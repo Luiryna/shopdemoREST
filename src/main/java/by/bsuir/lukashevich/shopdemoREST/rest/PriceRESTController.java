@@ -12,6 +12,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
 
+@CrossOrigin(origins = { "http://localhost:8080", "http://localhost:4200" })
 @RestController
 @RequestMapping("/api/price/")
 public class PriceRESTController {
